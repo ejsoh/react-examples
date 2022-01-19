@@ -1,7 +1,7 @@
 import React from "react";
+import Answer from "./answers/Second";
 
 const Second = () => {
-  // state setting
   const [state, setState] = React.useState(0);
 
   // increase function
@@ -16,6 +16,8 @@ const Second = () => {
         {state}
         <button onClick={increase}>+</button>
       </div>
+
+      <Answer />
     </div>
   );
 };
