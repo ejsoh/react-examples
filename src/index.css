@@ -20,3 +20,24 @@ nav > a {
   border: 1px solid black;
   padding: 20px 40px;
 }
+
+.counter-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.counter-container > .counter-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 300px;
+}
+
+.counter-container > .counter-items > button {
+  padding: 5px 10px;
+}
+
+.counter-container > .counter-reset {
+  width: 100px;
+  margin: 10px;
+}
